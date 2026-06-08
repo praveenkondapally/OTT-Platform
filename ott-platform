@@ -1,0 +1,22 @@
+ott-platform
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com/devops/ott
+│   │   │       ├── OttApplication.java
+│   │   │       └── controller
+│   │   │           └── MovieController.java
+│   │   │
+│   │   └── resources
+│   │       └── static
+│   │           ├── index.html
+│   │           └── style.css
+│   │
+│   └── test
+│       └── java
+│           └── MovieControllerTest.java
+│
+├── pom.xml
+├── Dockerfile
+└── Jenkinsfile
