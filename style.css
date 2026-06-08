@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#141414;
+    color:white;
+}
+
+header{
+    background:#e50914;
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:40px;
+}
+
+.card{
+    width:300px;
+    background:#222;
+    padding:15px;
+    border-radius:10px;
+}
+
+.card img{
+    width:100%;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
